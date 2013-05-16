@@ -1,0 +1,18 @@
+{
+    "projectName": "Pivbank",
+    "licenseText": "Copyright(c) 2013",
+    "builds": [
+        {
+            "name": "Pivbank",
+            "target": "js/pivbank.min.js",
+            "compress": true,
+		    "files": [
+				{"path": "js/src/", "name": "jquery.cookie.js"},
+				{"path": "js/src/", "name": "base.js"},
+				{"path": "js/src/", "name": "json.js"},
+				{"path": "js/src/", "name": "pivbank.js"}
+            ]
+        }
+    ],
+    "resources": []
+}

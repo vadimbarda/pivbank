@@ -1,0 +1,5 @@
+G:\Pivbank\site\v2\ContentTypeHttpModule\bin\Release\ContentTypeHttpModule.dll
+G:\Pivbank\site\v2\ContentTypeHttpModule\bin\Release\ContentTypeHttpModule.pdb
+G:\Pivbank\site\v2\ContentTypeHttpModule\obj\Release\ResolveAssemblyReference.cache
+G:\Pivbank\site\v2\ContentTypeHttpModule\obj\Release\ContentTypeHttpModule.dll
+G:\Pivbank\site\v2\ContentTypeHttpModule\obj\Release\ContentTypeHttpModule.pdb

@@ -1,0 +1,18 @@
+html {background-color:#fff;}
+body, input[type="button"], button {color:#000064;}
+iv.header .padding-stripe {height:4px;}
+div.header .wood-box {height:136px;}
+div.header .logo { background: url(../img/skins/ny/header-pb.png) center 0 no-repeat;top:12px;}
+div.page, ul.product-tabs-header a, ul.product-tabs-header a.current:hover, .message-panel {background: url(../img/skins/ny/2.gif);}
+div.sidebar .menu-frame { background: url(../img/skins/ny/menu-background.png);}
+div.order-list-background {background: url(../img/skins/ny/order-paper.png);}
+div.sidebar .kowboy { background: url(../img/skins/ny/kowboy.png);}
+div.footer .safe { position: absolute; background: url(../img/skins/ny/tree.gif); width: 218px; height: 344px; left: -30px; bottom: 5px; }
+.police-car{right:86px;}
+ul.product-tabs-header{background:#B30004;}
+.product-tabs-content .tab-page, .button, .order-product-table td.line, .message-panel, .message-panel .message-title{border-color:#B30004;}
+.button:hover, ul.product-tabs-header a:hover{background:#fff;}
+div.header .wood-box { background: url(../img/skins/ny/header-background.png);}
+div.footer{background: url(../img/skins/ny/footer-background.png);}
+div.footer .fish{display:none;}
+

@@ -1,0 +1,7 @@
+G:\Pivbank\site\v2\webServices\PivBank\bin\PivBank.dll
+G:\Pivbank\site\v2\webServices\PivBank\bin\PivBank.pdb
+G:\Pivbank\site\v2\webServices\PivBank\obj\Release\ResolveAssemblyReference.cache
+G:\Pivbank\site\v2\webServices\PivBank\obj\Release\Interop.TSObjectLibrary.dll
+G:\Pivbank\site\v2\webServices\PivBank\obj\Release\PivBank.csproj.ResolveComReference.cache
+G:\Pivbank\site\v2\webServices\PivBank\obj\Release\PivBank.dll
+G:\Pivbank\site\v2\webServices\PivBank\obj\Release\PivBank.pdb

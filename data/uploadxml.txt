@@ -1,0 +1,7 @@
+open pivbank.ftp.ukraine.com.ua
+pivbank_ftp
+buektdcrjt
+cd /pivbank.mk.ua/www/data/
+put g:\Pivbank\site\v2\data\settings.xml
+put g:\Pivbank\site\v2\data\settings.xml 
+quit
