@@ -280,7 +280,11 @@ pb.OrderController = Base.extend({
 	onGetProductsXml: function (data, textStatus, jqXHR) {
 		this.hideLoader();
 		this.products = [];
-		var items = $(data).find('item');
+		var xml = data;
+		if ($.browser.msie && parseFloat($.browser.version) <= 9) {
+			xml = $.parseXML(data);
+		} 
+		var items = $(xml).find('item');
 		for (var i = 0; i < items.length; i++) {
 			var properties = items[i].attributes;
 			var product = {}
@@ -507,7 +511,7 @@ pb.OrderController = Base.extend({
 	},
 
 	showInformationMessage: function (message) {
-		this.showMessage("Информация", message, 'information');
+		this.showMessage("Сообщение", message, 'information');
 	},
 
 	onTabsChange: function (e, index) {
@@ -665,7 +669,7 @@ pb.Order = Base.extend({
 			amount += cost;
 		}
 		var amount = amount - (amount * this.discount / 100);
-		var cost = "Итого: " + pb.toStr(amount.toFixed(2));
+		var cost = "Сумма: " + pb.toStr(amount.toFixed(2));
 		this.orderAmount.fadeOut(function () { $(this).html(cost).fadeIn(); });
 	},
 
