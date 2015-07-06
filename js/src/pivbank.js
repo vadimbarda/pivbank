@@ -93,7 +93,7 @@
 
 	getOrderEndDate: function () {
 		var workEndDate = this.getWorkEndDate();
-		workEndDate.setMinutes(workEndDate.getMinutes() - 15);
+		workEndDate.setMinutes(workEndDate.getMinutes() - 30);
 		return workEndDate
 	}
 };
