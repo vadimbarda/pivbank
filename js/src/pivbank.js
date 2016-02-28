@@ -101,8 +101,8 @@
 pb.OrderController = Base.extend({
 	defaults: {
 		productsUrl: 'data/products.xml',
-		getDataUrl: 'http://91.200.201.188:81/data/products.xml',
-		postDataUrl: 'http://91.200.201.188:81/BeerShopService.asmx/AddOrder'
+		getDataUrl: 'http://217.77.222.109:81/data/products.xml',
+		postDataUrl: 'http://217.77.222.109:81/BeerShopService.asmx/AddOrder'
 	},
 
 	postSuccessMessage: "Ваш заказ зарегистрирован и будет доставлен в ближайшие 30 минут",
